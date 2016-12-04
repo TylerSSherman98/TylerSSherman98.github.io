@@ -1,6 +1,6 @@
 /* Main stylesheet for index of Tyler Sherman's Website */
 html {
-  background: url("https://raw.githubusercontent.com/TylerSSherman98/TylerSSherman98.github.io/master/Images/Background.jpg") no-repeat center center fixed;
+  background: url("..Images/Background.jpg") no-repeat center center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
