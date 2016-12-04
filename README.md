@@ -1,1 +1,2 @@
-My own personal website. Created on 11/30/2016.
+My own personal website
+Currently a work in progress as I learn HTML & CSS
