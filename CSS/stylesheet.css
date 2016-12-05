@@ -1,42 +1,166 @@
 /* Main stylesheet for index of Tyler Sherman's Website */
-html {
-  background: url("../Images/Background.jpg") no-repeat center center fixed;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size: cover;
+
+body{
+    margin: -25px 0 0;
 }
 
-body {
-   width: 400px;
-   height: 100px;
-   position: absolute;
-   top:0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
+/* ---------  HEADER ---------- */
+#header .background{
+    max-width: 100%;
+    max-height: 100%;
 }
-#name {
-  color:white;
-  font-family: "Helvetica";
-  text-align: center;
-  font-size: 35px;
+
+#header{
+    margin-bottom: -10px;
+    overflow: hidden;
 }
-#links {
-  text-align: center;
-  margin: 0 auto;
-  color:white;
-  font-family: "Helvetica";
-  font-size: 18px;
-  height:100%;
+
+#header_container{
+    position: absolute;
+    top: 0;
+    width:50%;
+    left: 25%;
 }
-a {
-    display:inline-block;
-    text-decoration:none;
-    padding:5px;
+
+#header_text{
+    color: white;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.header_text_low{
+    transform: translateY(200px);
+    opacity: 0;
+}
+
+.header_text_raised{
+    transform: translateY(175px);
+    opacity: 1;
+}
+
+#header_text #text{
+    padding: 30px 0 10px 0;
+    text-align: center;
+}
+
+#header_text #text p{
+    font-size: 24px;
+    margin:5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header_text #text h1 {
+    font-size: 3em;
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+#header_svg{
+    position: absolute;
+    width: 110%;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button:hover{
+    background-color: rgba(255,255,255,.75);
+    color: black;
+}
+
+#header_button_container{
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.nav_bar{
+    transform: translateY(75px);
+    color: white;
+    font-size: 24px;
+    font-family: Helvetica, sans-serif;
+    -webkit-transition: 1s;
+    transition: 1s;
+    text-align: center;
+}
+
+.nav_bar .button{
+    width: auto;
+    margin: auto 1.8%;
+    border: none;
+    font-size: 16px;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.7;
+}
+
+.nav_bar .button:hover{
+    background-color: transparent;
+    color: white;
+    opacity: 1;
+    /*margin: auto 20px;*/
+}
+
+#mobile_nav_button{
+    cursor: pointer;
+}
+
+.mobile{
+    display: none;
+}
+
+#mobile_nav_bar{
+    position: absolute;
+    transform: translate3D(0,0,0);
+    right: 0;
+    top:0;
+    background-color: #26262A;
+    /*height: 100vh;*/
+    z-index: 10;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition-timing-function: ease;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+
+#mobile_nav_bar.visible{
+    width: 100%;
+    opacity: 1;
+    max-height: 900px;
+}
+
+#mobile_nav_bar.hidden{
+    width: 100%;
+    /*opacity: 0.5;*/
+    max-height: 0;
+}
+
+#mobile_nav_bar .mobile_button{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
     color:white;
-}
-a:hover {
-  color:gray;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid lightgray;
+    padding:60px 10px 60px 0;
+    text-transform: uppercase;
 }
