@@ -26,8 +26,6 @@ body{
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
-    -webkit-transition: 1s;
-    transition: 1s;
 }
 
 .header_text_low{
@@ -93,8 +91,6 @@ body{
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
-    -webkit-transition: 1.0s;
-    transition: 1.0s;
     text-align: center;
 }
 .nav_bar .button{
