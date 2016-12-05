@@ -9,83 +9,64 @@ body{
     width: 100%;
 	  max-height: 600px;
 }
-
 #header{
-    margin-bottom: -10px;
+    margin-bottom: auto;
     overflow: hidden;
 }
-
 #header_container{
     position: absolute;
     top: 0;
     width:60%;
     left: 20%;
 }
-
+/* -- Header Button Text --*/
+.header_text_low{
+    transform: translateY(140px);
+    opacity: 1.0;
+}
 #header_text{
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
 }
-
-.header_text_low{
-    transform: translateY(200px);
-    opacity: 0;
-}
-
-.header_text_raised{
-    transform: translateY(175px);
-    opacity: 1;
-}
-
 #header_text #text{
     padding: 30px 0 10px 0;
     text-align: center;
 }
-
 #header_text #text p{
     font-size: 24px;
     margin:5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-
 #header_text #text h1 {
     font-size: 3em;
     margin: 0;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-
-#header_svg{
-    position: absolute;
-    width: 110%;
-}
-
+/* -- Explore Button Setup --*/
 .button{
     text-decoration: none;
+    text-transform: uppercase;
     padding: 10px;
     width: 200px;
     color: white;
     display: inline-block;
     text-align: center;
-    border: 1px solid white;
-    border-radius: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
     transition: 0.5s;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
 }
-
 .button:hover{
-    background-color: rgba(255,255,255,.75);
-    color: black;
+    background-color: rgba(255, 255, 255, 1.0);
+    color: rgba(25, 25, 25, 1.0)
 }
-
+/* -- Navigation Bar Setup --*/
 #header_button_container{
     margin-top: 50px;
     text-align: center;
     padding: 25px;
-    transition: 1s;
-    -webkit-transition: 1s;
 }
-
 .nav_bar{
     transform: translateY(75px);
     color: white;
