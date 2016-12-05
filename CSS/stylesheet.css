@@ -7,7 +7,7 @@ body{
 /* ---------  HEADER ---------- */
 #header .background{
     width: 100%;
-	  max-height: 100;
+	  max-height: 600px;
 }
 
 #header{
@@ -93,25 +93,22 @@ body{
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
     text-align: center;
 }
-
 .nav_bar .button{
     width: auto;
-    margin: auto 1.8%;
+    margin: auto 2%;
     border: none;
-    font-size: 16px;
+    font-size: 20px;
     vertical-align: top;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Helvetica, sans-serif;
     opacity: 0.7;
 }
-
 .nav_bar .button:hover{
     background-color: transparent;
     color: white;
-    opacity: 1;
-    /*margin: auto 20px;*/
+    opacity: 1.0;
 }
