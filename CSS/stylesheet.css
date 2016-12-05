@@ -18,8 +18,8 @@ body{
 #header_container{
     position: absolute;
     top: 0;
-    width:50%;
-    left: 25%;
+    width:60%;
+    left: 20%;
 }
 
 #header_text{
@@ -93,13 +93,13 @@ body{
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+    -webkit-transition: 1.0s;
+    transition: 1.0s;
     text-align: center;
 }
 .nav_bar .button{
     width: auto;
-    margin: auto 2%;
+    margin: auto 2.0%;
     border: none;
     font-size: 18px;
     vertical-align: top;
@@ -109,6 +109,6 @@ body{
 }
 .nav_bar .button:hover{
     background-color: transparent;
-    color: white;
+    color: rgb(239, 233, 5);
     opacity: 1.0;
 }
