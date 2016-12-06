@@ -147,7 +147,13 @@ body{
     text-transform: uppercase;
     margin: 10px auto;
 }
-#contact_information p{
+
+#left_column{
+    background-color: red;
+    float: left;
+    width: 20%
+}
+#left_column p{
     text-align: left;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
@@ -155,9 +161,30 @@ body{
     border-bottom: solid 1px gray;
     overflow: hidden;
 }
-#contact_information a{
+
+#center_column{
+    background-color: green;
+    float: left;
+    width: 60%
+}
+#center_column p{
+    text-align: left;
+    font-size: 1.15em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom: solid 1px gray;
+    overflow: hidden;
+}
+#center_column a{
     float: right;
     background-color: transparent;
+    border: none;
+}
+
+#right_column{
+    background-color: yellow;
+    float: left;
+    width: 20%
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
