@@ -93,8 +93,9 @@ body{
 /* ----------------------  ABOUT SECTION ---------------------------- */
 #about{
     background-color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: justify;
     overflow: hidden;
+    width: 75%;
 }
 
 #about .header_divider{
