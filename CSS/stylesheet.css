@@ -106,10 +106,11 @@ body{
     margin-left: auto;
     width: 75%;
     overflow: hidden;
+    display: table;
 }
 #about_text h3{
     font-size: 3em;
-    font-family: "Book Antiqua", serif;
+    font-family: Helvetica, sans-serif;
     margin: 0px auto 15px;
 }
 #about_text p{
@@ -117,6 +118,7 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
+    display: table-cell;
     vertical-align: middle;
 }
 #about .headshot{
