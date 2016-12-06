@@ -97,15 +97,16 @@ body{
 }
 
 .header_divider{
-    margin: 25px auto 0px auto; /*top right bottom left*/
+    margin: 15px auto 15px auto; /*top right bottom left*/
     width: 85%;
 }
 
 #about_text{
     display: inline-block;
     text-align: justify;
-    margin: 15px auto 15px auto;
+    margin-left: auto;
     width: 75%;
+    overflow: hidden;
 }
 #about_text h3{
     font-size: 3em;
@@ -121,4 +122,5 @@ body{
     float: left;
     width: 30%;
     height: 30%;
+    margin: 15px 15px 15px 0px;
 }
