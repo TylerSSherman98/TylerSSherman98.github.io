@@ -93,8 +93,8 @@ body{
 /* ----------------------  ABOUT SECTION ---------------------------- */
 #about{
     background-color: rgb(255, 255, 255);
-    margin: auto;
-    width: 75%
+    margin: 0px auto 0px auto;
+    width: 75%;
     overflow: hidden;
 }
 
@@ -104,21 +104,21 @@ body{
 }
 #about .headshot{
     float: left;
-    margin: 10px 20px 0px 0px;
+    margin: 10px;
     width: 40%;
     height: 40%;
 }
 
 #about_text{
     display: inline-block;
-    text-align: justify;;
+    text-align: justify;
     width: 60%;
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
 #about_text h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 0 auto 30px;
+    margin: 0px auto 30px auto;
 }
 #about_text p{
     font-size: 1.15em;
