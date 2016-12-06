@@ -98,13 +98,14 @@ body{
 }
 
 .header_divider{
-    margin: 25px auto 25px auto; /*top right bottom left*/
-    width: 100%;
+    margin: 25px auto 0px auto; /*top right bottom left*/
+    width: 85%;
 }
 
 #about_text{
     display: inline-block;
     text-align: justify;
+    margin: 15px auto 15px auto;
     width: 75%;
 }
 #about_text h3{
@@ -117,7 +118,7 @@ body{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
 }
-#about .headshot{
+.headshot{
     float: left;
     margin: 30px;
     width: 30%;
