@@ -39,9 +39,10 @@ body{
     font-family: Helvetica, sans-serif;
 }
 #header_text #text h1 {
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Tillana', cursive;
+    font-weight: 800;
 }
 /* -- Explore Button Setup --*/
 .button{
@@ -67,22 +68,23 @@ body{
     text-align: center;
     padding: 25px;
 }
-.nav_bar{
+#header_container .nav_bar{
     transform: translateY(75px);
     color: white;
     font-size: 24px;
     font-family: Helvetica, sans-serif;
     text-align: center;
+    border-bottom: ridge 3px white;
 }
 .nav_bar .button{
     width: auto;
-    margin: auto 2.0%;
-    border: none;
+    margin: 0px 3.0%;
     font-size: 18px;
     vertical-align: top;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
     opacity: 1.0;
+    border: none;
 }
 .nav_bar .button:hover{
     background-color: transparent;
@@ -94,7 +96,7 @@ body{
     background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
-    padding: 40px;
+    padding: 25px;
 }
 
 .header_divider{
@@ -108,9 +110,10 @@ body{
     width: 75%;
 }
 #about_info h3{
-    margin: 0px auto 10px;
+    margin: 0px auto;
     font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tillana', cursive;
+    color: rgb(61, 110, 168);
 }
 
 #about_left{
@@ -132,8 +135,9 @@ body{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
     overflow: hidden;
+    margin-left: 20px;
     margin-right: 10px;
-    padding: 20px;
+    padding: 10px 0px;
 }
 
 /* ----------------------  CONTACT SECTION ---------------------------- */
@@ -152,7 +156,8 @@ body{
 }
 #contact_information h3{
     font-size: 3em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tillana', cursive;
+    color: rgba(255, 196, 46, 1);
     text-transform: uppercase;
     margin: 10px auto;
     padding-bottom: 15px;
@@ -167,6 +172,7 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 500;
+    color: rgba(192, 228, 99, 1);
     overflow: hidden;
     border-bottom: solid 1px gray;
     padding-bottom: 15px;
