@@ -159,7 +159,7 @@ body{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
     overflow: hidden;
-    border-bottom: 1px gray;
+    border-bottom: solid 1px gray;
 }
 
 #center_column{
@@ -172,10 +172,11 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    border-bottom: 1px gray;
+    border-bottom: solid 1px gray;
     overflow: hidden;
 }
 #center_column a{
+    color: white;
     background-color: transparent;
     border: none;
 }
