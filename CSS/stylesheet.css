@@ -187,22 +187,23 @@ body{
     float: left;
     width: 50%
 }
-#right_column .gitHub{
-    margin-left: auto;
-    width: 30%;
-    height: auto;
-    vertical-align: middle;
-}
-#right_column .linkedIn{
-    margin-left: auto;
-    width: 30%;
-    height: auto;
-    vertical-align: middle;
-}
 #right_column .map{
-    width: 600px;
-    height: 450px;
+    width: 80%;
+    height: auto;
     border: none;
+}
+
+#contact_information .gitHub{
+    margin-left: auto;
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
+}
+#contact_information .linkedIn{
+    margin-left: auto;
+    width: 30%;
+    height: auto;
+    vertical-align: middle;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
