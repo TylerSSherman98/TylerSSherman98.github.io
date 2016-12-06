@@ -130,7 +130,7 @@ body{
 
 /* ----------------------  CONTACT SECTION ---------------------------- */
 #contact{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(61, 110, 168);
     text-align: center;
     overflow: hidden;
 }
@@ -143,20 +143,21 @@ body{
 #contact_information h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 10px auto 10px;
+    text-transform: uppercase;
+    margin: 10px auto;
 }
 #contact_information p{
-    text-align: justify;
+    text-align: left;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    margin-right: 5px;
+    border-bottom: solid 2px red;
     overflow: hidden;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
 #footer{
-    background-color: rgb(61, 110, 168);
+    background-color: rgb(73, 73, 73);
     font-family: Helvetica, sans-serif;
     width: 100%;
     color: white;
