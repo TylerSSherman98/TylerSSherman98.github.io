@@ -188,13 +188,15 @@ body{
     width: 50%
 }
 #right_column .gitHub{
-    margin-left: auto
+    margin-left: auto;
     width: 30%;
+    height: auto;
     vertical-align: middle;
 }
 #right_column .linkedIn{
-    margin-left: auto
+    margin-left: auto;
     width: 30%;
+    height: auto;
     vertical-align: middle;
 }
 
