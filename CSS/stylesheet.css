@@ -105,11 +105,13 @@ body{
     display: inline-block;
     margin-left: auto;
     width: 75%;
+    vertical-align: middle;
+    line-height: 20px;
 }
 #about_text h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 0px auto 15px;
+    margin: 0px auto 5px;
 }
 #about_text p{
     text-align: justify;
@@ -117,13 +119,11 @@ body{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
     overflow: hidden;
-    vertical-align: middle;
 }
 #about_text .headshot{
     float: left;
     width: 30%;
     height: 30%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 25px;
-    vertical-align: middle;
 }
