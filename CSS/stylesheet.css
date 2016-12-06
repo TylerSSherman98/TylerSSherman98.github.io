@@ -103,15 +103,16 @@ body{
 }
 #about .headshot{
     float: left;
-    padding: 0 20px 0 0;
+    padding: 10px 20px 0 0;
     width: 35%;
     height: 35%;
 }
 
 #about_text{
     display: inline-block;
+    text-align: left;
     width: 50%;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
 }
 #about_text h3{
     font-size: 3em;
