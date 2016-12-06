@@ -131,9 +131,10 @@ body{
 #footer{
     background-color: rgb(61, 110, 168);
     font-family: Helvetica, sans-serif;
+    width: 100%;
+    max-height: 400px;
     color: white;
-    margin-top: 50px;
-    margin-bottom: 20;
+    margin-top: -20px;
     text-align: center;
 }
 
@@ -145,13 +146,11 @@ body{
 }
 #footer #reach_out h1{
     font-size: 1.5em;
-    font-family: Helvetica, sans-serif;
     font-weight: 300;
     text-transform: capitalize;
 }
 #footer #reach_out a{
     display: inline-block;
-    margin: auto;
     font-size: 18px;
 }
 
