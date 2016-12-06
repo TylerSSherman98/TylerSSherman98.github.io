@@ -199,6 +199,11 @@ body{
     height: auto;
     vertical-align: middle;
 }
+#right_column .map{
+    width: 600px;
+    height: 450px;
+    border: none;
+}
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
 #footer{
