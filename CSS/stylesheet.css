@@ -117,11 +117,13 @@ body{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
     overflow: hidden;
+    vertical-align: middle;
 }
-#about .headshot{
+#about_text .headshot{
     float: left;
     width: 30%;
     height: 30%;
     margin-left: 10px;
     margin-right: 25px;
+    vertical-align: middle;
 }
