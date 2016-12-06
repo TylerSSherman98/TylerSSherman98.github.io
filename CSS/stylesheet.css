@@ -106,7 +106,6 @@ body{
     margin-left: auto;
     width: 75%;
     overflow: hidden;
-    display: table;
 }
 #about_text h3{
     font-size: 3em;
@@ -118,14 +117,11 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    display: table-cell;
-    vertical-align: middle;
 }
 #about .headshot{
     float: left;
-    width: 30%;
-    height: 30%;
+    width: 10%;
+    height: 10%;
     margin-left: 10px;
     margin-right: 25px;
-    vertical-align: middle;
 }
