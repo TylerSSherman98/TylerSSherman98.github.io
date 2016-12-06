@@ -57,7 +57,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 .button:hover{
-    background-color: rgba(246, 189, 44, 1.0);
+    background-color: rgba(246, 189, 44, 1);
     color: rgba(255, 255, 255, 1.0)
 }
 /* -- Navigation Bar Setup --*/
@@ -85,7 +85,7 @@ body{
 }
 .nav_bar .button:hover{
     background-color: transparent;
-    color: rgba(246, 189, 44, 1.0);
+    color: rgba(246, 189, 44, 1);
     opacity: 1.0;
 }
 
@@ -105,13 +105,11 @@ body{
     display: inline-block;
     margin-left: auto;
     width: 75%;
-    vertical-align: middle;
-    line-height: 20px;
 }
 #about_text h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 0px auto 10px;
+    margin: 10px auto 10px;
 }
 #about_text p{
     text-align: justify;
@@ -127,4 +125,46 @@ body{
     height: 30%;
     margin-left: 20px;
     margin-right: 25px;
+}
+
+/* ----------------------  FOOTER SECTION ---------------------------- */
+#footer{
+    background-color: rgb(38, 38, 42);
+    font-family: Helvetica, sans-serif;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#footer #reach_out{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#footer #reach_out h1{
+    font-size: 1.5em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#footer #reach_out a{
+    display: inline-block;
+    margin: auto;
+    font-size: 18px;
+}
+
+#footer .nav_bar{
+    position: relative;
+    transform: none;
+    height: auto;
+    width: 60%;
+    display: inline-block;
+}
+#footer .nav_bar a{
+    opacity: 0.7;
+}
+#footer .nav_bar a:hover{
+    background-color: transparent;
+    color: rgba(246, 189, 44, 1);
 }
