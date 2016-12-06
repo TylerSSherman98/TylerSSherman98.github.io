@@ -149,7 +149,6 @@ body{
 }
 
 #left_column{
-    background-color: red;
     float: left;
     width: 20%
 }
@@ -157,13 +156,13 @@ body{
     text-align: left;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     overflow: hidden;
     border-bottom: solid 1px gray;
+    padding-bottom: 5px;
 }
 
 #center_column{
-    background-color: green;
     float: left;
     width: 30%
 }
@@ -171,27 +170,26 @@ body{
     text-align: left;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     border-bottom: solid 1px gray;
     overflow: hidden;
+    padding-bottom: 5px;
 }
 #center_column a{
     color: white;
+    text-decoration: none;
     background-color: transparent;
     border: none;
+    padding-bottom: 5px;
 }
 
 #right_column{
-    background-color: yellow;
     float: left;
     width: 50%
 }
-#right_column p{
-    text-align: left;
-    font-size: 1.15em;
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-    overflow: hidden;
+#right_column a{
+    margin: 15px auto;
+    width: 30%;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
