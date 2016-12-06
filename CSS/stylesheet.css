@@ -105,7 +105,6 @@ body{
     display: inline-block;
     margin-left: auto;
     width: 75%;
-    overflow: hidden;
 }
 #about_text h3{
     font-size: 3em;
@@ -117,6 +116,7 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
+    overflow: hidden;
 }
 #about .headshot{
     float: left;
