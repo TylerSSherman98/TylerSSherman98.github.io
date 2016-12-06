@@ -188,22 +188,21 @@ body{
     width: 50%
 }
 #right_column .map{
-    width: 80%;
+    width: 95%;
     height: auto;
     border: none;
 }
-
-#contact_information .gitHub{
-    margin-left: auto;
-    width: 30%;
-    height: auto;
-    vertical-align: middle;
-}
 #contact_information .linkedIn{
-    margin-left: auto;
-    width: 30%;
+    float: left;
+    width: 20%;
     height: auto;
-    vertical-align: middle;
+    margin-left: 20px;
+}
+#contact_information .gitHub{
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-left: 20px;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
