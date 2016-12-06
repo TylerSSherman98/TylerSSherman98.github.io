@@ -120,8 +120,8 @@ body{
 }
 #about .headshot{
     float: left;
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
     margin-left: 10px;
     margin-right: 25px;
 }
