@@ -5,11 +5,12 @@ body{
 }
 
 /* ----------------------  HEADER ---------------------------- */
-#header .background{
-  width: 100%;
-}
 #header{
+    width: 100%;
     overflow: hidden;
+}
+#header .background{
+    width: 100%;
 }
 #header_container{
     position: absolute;
