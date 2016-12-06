@@ -165,7 +165,7 @@ body{
 #center_column{
     background-color: green;
     float: left;
-    width: 60%
+    width: 30%
 }
 #center_column p{
     text-align: left;
@@ -176,7 +176,6 @@ body{
     overflow: hidden;
 }
 #center_column a{
-    float: right;
     background-color: transparent;
     border: none;
 }
@@ -184,7 +183,15 @@ body{
 #right_column{
     background-color: yellow;
     float: left;
-    width: 20%
+    width: 50%
+}
+#center_column p{
+    text-align: left;
+    font-size: 1.15em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    border-bottom: solid 1px gray;
+    overflow: hidden;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
