@@ -82,12 +82,11 @@ body{
     vertical-align: top;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
-    opacity: 0.7;
+    opacity: 1.0;
 }
 .nav_bar .button:hover{
     background-color: transparent;
     color: rgba(246, 189, 44, 1);
-    opacity: 1.0;
 }
 
 /* ----------------------  ABOUT SECTION ---------------------------- */
@@ -95,37 +94,46 @@ body{
     background-color: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
+    padding: 40px;
 }
 
 .header_divider{
-    margin: 15px auto 15px auto; /*top right bottom left*/
+    margin: 20px auto 20px auto; /*top right bottom left*/
     width: 85%;
 }
 
-#about_text{
+#about_info{
     display: inline-block;
-    margin: 50px auto;
+    margin: 0px, auto;
     width: 75%;
 }
-#about_text h3{
+#about_info h3{
+    margin: 0px auto 10px;
     font-size: 3em;
-    font-family: Helvetica, sans-serif;
-    margin: 10px auto 10px;
+    font-family: 'Open Sans', sans-serif;
 }
-#about_text p{
+
+#about_left{
+    float: left;
+    width: 30%;
+}
+#about_left .headshot{
+  width: 95%;
+  vertical-align: middle;
+}
+
+#about_right{
+    float: left;
+    width: 70%
+}
+#about_right p{
     text-align: justify;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
-    margin-right: 5px;
     overflow: hidden;
-}
-#about_text .headshot{
-    float: left;
-    width: 30%;
-    height: 30%;
-    margin-left: 20px;
-    margin-right: 25px;
+    margin-right: 10px;
+    padding: 20px;
 }
 
 /* ----------------------  CONTACT SECTION ---------------------------- */
@@ -139,18 +147,20 @@ body{
 #contact_information{
     display: inline-block;
     margin-left: auto;
-    width: 70%;
+    width: 80%;
+    padding: 30px 0px;
 }
 #contact_information h3{
     font-size: 3em;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     margin: 10px auto;
+    padding-bottom: 15px;
 }
 
 #left_column{
     float: left;
-    width: 20%
+    width: 18%
 }
 #left_column p{
     text-align: left;
@@ -161,10 +171,14 @@ body{
     border-bottom: solid 1px gray;
     padding-bottom: 15px;
 }
+#left_column .linkedIn{
+    width: 100%;
+    margin-top: 15px;
+}
 
 #center_column{
     float: left;
-    width: 30%
+    width: 25%
 }
 #center_column p{
     text-align: left;
@@ -182,27 +196,21 @@ body{
     border: none;
     padding-bottom: 15px;
 }
+#center_column .gitHub{
+    float: right;
+    margin-top: 15px;
+    width: 72%;
+}
 
 #right_column{
     float: left;
-    width: 50%
+    width: 57%
 }
 #right_column .map{
+    float: right;
     width: 95%;
-    height: auto;
-    border: none;
-}
-#contact_information .linkedIn{
-    float: left;
-    width: 20%;
-    height: auto;
-    margin-left: 20px;
-}
-#contact_information .gitHub{
-    float: left;
-    width: 20%;
-    height: auto;
-    margin-left: 20px;
+    height: 500px;
+    border: solid 2px gray;
 }
 
 /* ----------------------  FOOTER SECTION ---------------------------- */
