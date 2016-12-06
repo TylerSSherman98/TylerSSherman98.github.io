@@ -10,7 +10,6 @@ body{
 	  max-height: 100%;
 }
 #header{
-    margin-bottom: auto;
     overflow: hidden;
 }
 #header_container{
@@ -111,7 +110,7 @@ body{
 #about_text h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 0px auto 30px;
+    margin: 0px auto 15px auto;
 }
 #about_text p{
     font-size: 1.15em;
@@ -120,7 +119,6 @@ body{
 }
 .headshot{
     float: left;
-    margin: 30px;
     width: 30%;
     height: 30%;
 }
