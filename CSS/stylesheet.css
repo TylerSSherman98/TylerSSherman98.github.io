@@ -6,13 +6,7 @@ body{
 
 /* ----------------------  HEADER ---------------------------- */
 #header .background{
-  /* Set rules to fill background */
-  min-width: 100%;
-  min-height: 500px;
-
-  /* Set up proportionate scaling */
   width: 100%;
-  height: auto;
 }
 #header{
     overflow: hidden;
