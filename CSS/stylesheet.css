@@ -128,6 +128,32 @@ body{
     margin-right: 25px;
 }
 
+/* ----------------------  CONTACT SECTION ---------------------------- */
+#contact{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    overflow: hidden;
+}
+
+#contact_information{
+    display: inline-block;
+    margin-left: auto;
+    width: 75%;
+}
+#contact_information h3{
+    font-size: 3em;
+    font-family: Helvetica, sans-serif;
+    margin: 10px auto 10px;
+}
+#contact_information p{
+    text-align: justify;
+    font-size: 1.15em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
 /* ----------------------  FOOTER SECTION ---------------------------- */
 #footer{
     background-color: rgb(61, 110, 168);
