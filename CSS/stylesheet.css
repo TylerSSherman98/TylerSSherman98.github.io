@@ -111,13 +111,14 @@ body{
 #about_text h3{
     font-size: 3em;
     font-family: Helvetica, sans-serif;
-    margin: 0px auto 5px;
+    margin: 0px auto 10px;
 }
 #about_text p{
     text-align: justify;
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
+    margin-right: 5px;
     overflow: hidden;
 }
 #about_text .headshot{
