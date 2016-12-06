@@ -103,9 +103,9 @@ body{
 }
 #about .headshot{
     float: left;
-    padding: 0 20px 20px 0;
-    width: 25%;
-    height: 25%;
+    padding: 0 20px 0 0;
+    width: 35%;
+    height: 35%;
 }
 
 #about_text{
