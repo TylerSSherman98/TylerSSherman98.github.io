@@ -92,28 +92,20 @@ body{
 
 /* ----------------------  ABOUT SECTION ---------------------------- */
 #about{
-    background-color: rgb(0, 255, 255);
-    display: inline-block;
-    margin-left: auto;
-    width: 85%;
+    background-color: #e7e7e7;
+    text-align: center;
     overflow: hidden;
 }
 
-#about .header_divider{
+.header_divider{
     margin: 25px auto 25px auto; /*top right bottom left*/
     width: 100%;
-}
-#about .headshot{
-    float: left;
-    margin: 10px;
-    width: 40%;
-    height: 40%;
 }
 
 #about_text{
     display: inline-block;
     text-align: justify;
-    width: 60%;
+    width: 85%;
     margin: 10px;
 }
 #about_text h3{
@@ -125,4 +117,10 @@ body{
     font-size: 1.15em;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
+}
+#about .headshot{
+    float: left;
+    margin: 10px;
+    width: 40%;
+    height: 40%;
 }
