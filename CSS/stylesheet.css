@@ -93,27 +93,27 @@ body{
 /* ----------------------  ABOUT SECTION ---------------------------- */
 #about{
     background-color: rgb(255, 255, 255);
-    text-align: justify;
+    margin: auto;
+    width: 75%
     overflow: hidden;
-    width: 75%;
 }
 
 #about .header_divider{
-    margin: 50px;
+    margin: 25px auto 25px auto; /*top right bottom left*/
     width: 100%;
 }
 #about .headshot{
     float: left;
-    padding: 10px 20px 0 0;
-    width: 35%;
-    height: 35%;
+    margin: 10px 20px 0px 0px;
+    width: 40%;
+    height: 40%;
 }
 
 #about_text{
     display: inline-block;
-    text-align: left;
-    width: 50%;
-    padding: 10px 10px 10px 10px;
+    text-align: justify;;
+    width: 60%;
+    margin: 10px 10px 10px 10px;
 }
 #about_text h3{
     font-size: 3em;
