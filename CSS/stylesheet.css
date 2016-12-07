@@ -76,12 +76,14 @@ li p{
 	}
 	.nav-list {
 		display: none;
+    padding: 0px;
+    margin: 0px;
 	}
 	.nav-item{
-		width: 80%;
+		width: 100%;
 		float: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border-bottom: solid 2px white;
 	}
 	.nav-item a{
@@ -89,12 +91,7 @@ li p{
 		padding: 10px 0 5px;
     border-right: none;
 	}
-	.nav-item:first-child a{
-		border-radius: 20px 20px 0 0;
-	}
 	.nav-item:last-child a{
-		border-radius: 0 0 20px 20px;
-    margin-bottom: 15px;
     padding-bottom: 10px;
 	}
   .nav-item:last-child{
@@ -104,9 +101,9 @@ li p{
 		display:block;
 	}
 	.nav-mobile-open {
-		border-radius: 5px 5px 0 0;
-		-webkit-border-radius: 5px 5px 0 0;
-		-moz-border-radius: 5px 5px 0 0;
+		border-radius: 10px 10px 0 0;
+		-webkit-border-radius: 10px 10px 0 0;
+		-moz-border-radius: 10px 10px 0 0;
 	}
 }
 
