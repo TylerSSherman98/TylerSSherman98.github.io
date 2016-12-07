@@ -5,48 +5,83 @@ Created: 12/04/2016-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width" initial-scale="1.0" name="viewport">
-  <title>Tyler Seiden Sherman - Electrical &amp; Computer Engineer</title>
-	<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana:700,800">
-	<!--favicon support for all modern browsers / mobile devices-->
-	<link rel="icon" href="Images/favicon/favicon.ico" type="image/x-icon"/>
-	<link rel="icon" type="image/png" href="Images/favicon/favicon-196x196.png" sizes="196x196"/>
-	<link rel="icon" type="image/png" href="Images/favicon/favicon-128.png" sizes="128x128"/>
-	<link rel="icon" type="image/png" href="Images/favicon/favicon-96x96.png" sizes="96x96"/>
-	<link rel="icon" type="image/png" href="Images/favicon/favicon-32x32.png" sizes="32x32"/>
-	<link rel="icon" type="image/png" href="Images/favicon/favicon-16x16.png" sizes="16x16"/>
-	<link rel="apple-touch-icon" sizes="57x57" href="Images/favicon/apple-touch-icon-57x57.png"/>
-	<link rel="apple-touch-icon" sizes="60x60" href="Images/favicon/apple-touch-icon-60x60.png"/>
-	<link rel="apple-touch-icon" sizes="72x72" href="Images/favicon/apple-touch-icon-72x72.png"/>
-	<link rel="apple-touch-icon" sizes="76x76" href="Images/favicon/apple-touch-icon-76x76.png"/>
-  <link rel="apple-touch-icon" sizes="114x114" href="Images/favicon/apple-touch-icon-114x114.png"/>
-	<link rel="apple-touch-icon" sizes="120x120" href="Images/favicon/apple-touch-icon-120x120.png"/>
-	<link rel="apple-touch-icon" sizes="144x144" href="Images/favicon/apple-touch-icon-144x144.png"/>
-	<link rel="apple-touch-icon" sizes="152x152" href="Images/favicon/apple-touch-icon-152x152.png"/>
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="apple-mobile-web-app-title" content="TSS Design">
-	<meta name="application-name" content="&nbsp;"/>
-	<meta name="msapplication-TileColor" content="#FFFFFF"/>
-	<meta name="msapplication-TileImage" content="Images/favicon/mstile-144x144.png"/>
-	<meta name="msapplication-square70x70logo" content="Images/favicon/mstile-70x70.png"/>
-	<meta name="msapplication-square150x150logo" content="Images/favicon/mstile-150x150.png"/>
-	<meta name="msapplication-wide310x150logo" content="Images/favicon/mstile-310x150.png"/>
-	<meta name="msapplication-square310x310logo" content="Images/favicon/mstile-310x310.png"/>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  	<title>Tyler Seiden Sherman - Electrical &amp; Computer Engineer</title>
+		<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tillana:700,800">
+		<!--favicon support for all modern browsers / mobile devices-->
+		<link rel="icon" href="Images/favicon/favicon.ico" type="image/x-icon"/>
+		<link rel="icon" type="image/png" href="Images/favicon/favicon-196x196.png" sizes="196x196"/>
+		<link rel="icon" type="image/png" href="Images/favicon/favicon-128.png" sizes="128x128"/>
+		<link rel="icon" type="image/png" href="Images/favicon/favicon-96x96.png" sizes="96x96"/>
+		<link rel="icon" type="image/png" href="Images/favicon/favicon-32x32.png" sizes="32x32"/>
+		<link rel="icon" type="image/png" href="Images/favicon/favicon-16x16.png" sizes="16x16"/>
+		<link rel="apple-touch-icon" sizes="57x57" href="Images/favicon/apple-touch-icon-57x57.png"/>
+		<link rel="apple-touch-icon" sizes="60x60" href="Images/favicon/apple-touch-icon-60x60.png"/>
+		<link rel="apple-touch-icon" sizes="72x72" href="Images/favicon/apple-touch-icon-72x72.png"/>
+		<link rel="apple-touch-icon" sizes="76x76" href="Images/favicon/apple-touch-icon-76x76.png"/>
+  	<link rel="apple-touch-icon" sizes="114x114" href="Images/favicon/apple-touch-icon-114x114.png"/>
+		<link rel="apple-touch-icon" sizes="120x120" href="Images/favicon/apple-touch-icon-120x120.png"/>
+		<link rel="apple-touch-icon" sizes="144x144" href="Images/favicon/apple-touch-icon-144x144.png"/>
+		<link rel="apple-touch-icon" sizes="152x152" href="Images/favicon/apple-touch-icon-152x152.png"/>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="apple-mobile-web-app-title" content="TSS Design">
+		<meta name="application-name" content="&nbsp;"/>
+		<meta name="msapplication-TileColor" content="#FFFFFF"/>
+		<meta name="msapplication-TileImage" content="Images/favicon/mstile-144x144.png"/>
+		<meta name="msapplication-square70x70logo" content="Images/favicon/mstile-70x70.png"/>
+		<meta name="msapplication-square150x150logo" content="Images/favicon/mstile-150x150.png"/>
+		<meta name="msapplication-wide310x150logo" content="Images/favicon/mstile-310x150.png"/>
+		<meta name="msapplication-square310x310logo" content="Images/favicon/mstile-310x310.png"/>
 </head>
+
 
 <body>
 
 	<!--TOP NAVIGATION BAR-->
-	<ul id = "top_nav_bar">
-		<li><a href = "#about">About Me</a>
-		<li><a target = "_blank" href = "http://www.github.com/TylerSSherman98">Code</a>
-		<li><a href = "#contact">Contact</a>
-		<li><a target = "_blank" href = "Files/Resume.pdf">Resume</a>
-		<li><a class = "last" href = "#work">Work</a>
-	</ul>
+	<nav class="nav">
+		<ul class = "nav-list">
+			<li class="nav-item"><a href = "#about">About Me</a>
+			<li class="nav-item"><a target = "_blank" href = "http://www.github.com/TylerSSherman98">Code</a>
+			<li class="nav-item"><a href = "#contact">Contact</a>
+			<li class="nav-item"><a target = "_blank" href = "Files/Resume.pdf">Resume</a>
+			<li class="nav-item"><a class = "last" href = "#work">Work</a>
+		</ul>
+	</nav>
+
+	<script>
+		(function () {
+		  // Create mobile element
+		  var mobile = document.createElement('div');
+		  mobile.className = 'nav-mobile';
+		  document.querySelector('.nav').appendChild(mobile);
+		  // hasClass
+		  function hasClass(elem, className) {
+		  	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+		  }
+		  // toggleClass
+		  function toggleClass(elem, className) {
+		  	var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+		    if (hasClass(elem, className)) {
+		      while (newClass.indexOf(' ' + className + ' ') >= 0) {
+		        newClass = newClass.replace(' ' + className + ' ', ' ');
+		      }
+		    elem.className = newClass.replace(/^\s+|\s+$/g, '');
+		    } else {
+		      elem.className += ' ' + className;
+		    }
+		  }
+		  // Mobile nav function
+		  var mobileNav = document.querySelector('.nav-mobile');
+		  var toggle = document.querySelector('.nav-list');
+	    mobileNav.onclick = function () {
+				toggleClass(this, 'nav-mobile-open');
+		    toggleClass(toggle, 'nav-active');
+		  };
+		})();
+		</script>
 
 
 	<!--ABOUT SECTION-->
@@ -73,6 +108,7 @@ Created: 12/04/2016-->
 
 		<img class = "header_divider" src = "Images/Divider.png">
   </div>
+
 
 	<!--CONTACT SECTION-->
 	<div id = "contact">
@@ -105,6 +141,7 @@ Created: 12/04/2016-->
 		</div>
 
 	</div>
+
 
 	<!--FOOTER SECTION-->
 	<div id = "footer">
