@@ -18,14 +18,14 @@ body {
 }
 .nav-list{
     margin: 0px;
-    width: auto;
+    padding: 0px;
 }
 .nav-item{
     display: inline-block;
     overflow: hidden;
     border-bottom: solid white 3px;
     padding-bottom: 5px;
-    margin: 10px 0px 7px 0px;
+    margin: 10px 0px 7px;
     zoom: 1;
 }
 .nav-item a{
@@ -204,7 +204,7 @@ li p{
 
 #left_column{
     float: left;
-    width: 18%;
+    width: 22%;
 }
 #left_column p{
     text-align: left;
@@ -223,7 +223,7 @@ li p{
 
 #center_column{
     float: left;
-    width: 25%
+    width: 30%
 }
 #center_column p{
     text-align: left;
@@ -244,12 +244,12 @@ li p{
 #center_column .gitHub{
     float: right;
     margin-top: 15px;
-    width: 72%;
+    width: 73%;
 }
 
 #right_column{
     float: left;
-    width: 57%
+    width: 48%
 }
 #right_column .map{
     float: right;
@@ -316,8 +316,123 @@ li p{
 /* --------------------------------------------------------------------- *\
                             MEDIA QUERIES
 \* --------------------------------------------------------------------- */
+/* @media only screen and (min-width: 1024px) {
+} This = default CSS
+*/
+/*TABLETS*/
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  .header_text_low{
+      transform: translateY(80px);
+  }
+  #header_text{
+      font-size: 1.0em;
+  }
+  #header_text #text p{
+      font-size: 1.25em;
+  }
+  #header_text #text h1 {
+      font-size: 3.0em;
+  }
+  /* -- Explore Button Setup --*/
+  #header_button_container{
+      margin-top: 60px;
+  }
+  /* -- About Section -- */
+  .header_divider{
+      margin: 10px auto 10px auto; /*top right bottom left*/
+      width: 95%;
+  }
+  #about_info{
+      margin: 0px, auto;
+      width: 90%;
+  }
+  #about_info h3{
+      font-size: 2.25em;
+  }
+  #about_left{
+      width: 100%;
+  }
+  #about_left .headshot{
+      width: 30%;
+  }
+  #about_right{
+      width: 100%;
+  }
+  /* -- Contact Section -- */
+  #contact_information{
+      width: 70%;
+      padding: 20px 0px;
+  }
+  #contact_information h3{
+      font-size: 2.25em;
+      padding-bottom: 0px;
+  }
+  #left_column{
+      width: 40%;
+      margin-left: 2.5%;
+  }
+  #left_column p{
+      padding-bottom: 15px;
+      padding-right: 5px;
+  }
+  #left_column .linkedIn{
+      width: 30%;
+      margin-top: 2px;
+      float: left;
+  }
+  #center_column{
+      width: 55%
+  }
+  #center_column p{
+      padding-bottom: 15px;
+  }
+  #center_column a{
+      padding-bottom: 15px;
+  }
+  #center_column .gitHub{
+      margin-top: 2px;
+      width: 22%;
+  }
+  #right_column{
+      width: 100%
+  }
+  #right_column .map{
+      width: 100%;
+      margin-top: 15px;
+      padding-bottom: 15px;
+      height: 400px;
+  }
+  /* -- Footer Section -- */
+  #footer #reach_out{
+      font-size: 1em;
+      padding-top: 20px;
+  }
+  #footer #reach_out h1{
+      font-size: 2.25em;
+  }
+  #footer #reach_out a{
+      display: inline-block;
+      font-size: 1.5em;
+  }
+  #footer .nav_bar{
+      width: 90%;
+  }
+  .nav_bar .button{
+      width: auto;
+      margin: 0px 3.0%;
+      padding: 0px;
+      font-size: 1.0em;
+  }
+}
+/*SMARTPHONES*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-	.nav-mobile{
+  body {
+    font-size: 14px;
+  }
+  .nav-mobile{
 		display: block;
 	}
 	.nav{
@@ -355,33 +470,107 @@ li p{
 		-webkit-border-radius: 10px 10px 0 0;
 		-moz-border-radius: 10px 10px 0 0;
 	}
+
   .header_text_low{
-      transform: translateY(50px);
+      transform: translateY(80px);
   }
   #header_text{
-      font-size: 13px;
+      font-size: 1.0em;
   }
   #header_text #text p{
-      font-size: 13px;
+      font-size: 1.25em;
   }
   #header_text #text h1 {
-      font-size: 1.5em;
+      font-size: 3.0em;
   }
   /* -- Explore Button Setup --*/
   #header_button_container{
-      margin-top: 60px;
-      padding: 25px;
+      display: none;
   }
-  .button{
-      padding: 10px;
-      width: 200px;
+  /* -- About Section -- */
+  .header_divider{
+      margin: 10px auto 10px auto; /*top right bottom left*/
+      width: 95%;
   }
-}
-
-
-
-@media only screen and (max-width: 1024px) {
-}
-
-@media only screen and (min-width: 1024px) {
+  #about_info{
+      margin: 0px, auto;
+      width: 90%;
+  }
+  #about_info h3{
+      font-size: 2.25em;
+  }
+  #about_left{
+      width: 100%;
+  }
+  #about_left .headshot{
+      width: 50%;
+  }
+  #about_right{
+      width: 100%;
+  }
+  /* -- Contact Section -- */
+  #contact_information{
+      width: 80%;
+      padding: 20px 0px;
+  }
+  #contact_information h3{
+      font-size: 2.25em;
+      padding-bottom: 0px;
+  }
+  #left_column{
+      width: 42%;
+      margin-left: auto;
+  }
+  #left_column p{
+      padding-bottom: 15px;
+      padding-right: 5px;
+  }
+  #left_column .linkedIn{
+      width: 30%;
+      margin-top: 2px;
+      float: left;
+  }
+  #center_column{
+      width: 58%
+  }
+  #center_column p{
+      padding-bottom: 15px;
+  }
+  #center_column a{
+      padding-bottom: 15px;
+  }
+  #center_column .gitHub{
+      margin-top: 2px;
+      width: 21.7%;
+  }
+  #right_column{
+      width: 100%
+  }
+  #right_column .map{
+      width: 100%;
+      margin-top: 15px;
+      padding-bottom: 15px;
+      height: auto;
+  }
+  /* -- Footer Section -- */
+  #footer #reach_out{
+      font-size: 1em;
+      padding-top: 20px;
+  }
+  #footer #reach_out h1{
+      font-size: 2.25em;
+  }
+  #footer #reach_out a{
+      display: inline-block;
+      font-size: 1.5em;
+  }
+  #footer .nav_bar{
+      width: 90%;
+  }
+  .nav_bar .button{
+      width: auto;
+      margin: 0px 3.0%;
+      padding: 0px;
+      font-size: 1.0em;
+  }
 }
