@@ -510,7 +510,7 @@ li p{
   }
   /* -- Contact Section -- */
   #contact_information{
-      width: 90%;
+      width: 95%;
       padding: 20px 0px;
   }
   #contact_information h3{
@@ -571,6 +571,6 @@ li p{
       width: auto;
       margin: 0px 1.5%;
       padding: 0px;
-      font-size: 0.8em;
+      font-size: 1.0em;
   }
 }
