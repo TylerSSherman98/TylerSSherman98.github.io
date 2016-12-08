@@ -430,7 +430,7 @@ li p{
 /*SMARTPHONES*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 13px;
   }
   .nav-mobile{
 		display: block;
@@ -472,7 +472,7 @@ li p{
 	}
 
   .header_text_low{
-      transform: translateY(80px);
+      transform: translateY(30px);
   }
   #header_text{
       font-size: 1.0em;
