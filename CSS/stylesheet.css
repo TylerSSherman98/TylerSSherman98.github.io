@@ -153,19 +153,27 @@ li p{
     font-family: 'Tillana', cursive;
     color: rgb(61, 110, 168);
 }
-
+#about_container{
+    display: inline-block;
+    white-space: nowrap;
+}
 #about_left{
-    float: left;
     width: 30%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+    text-align:center;
 }
 #about_left .headshot{
-  width: 95%;
-  vertical-align: middle;
+    width: 95%;
 }
 
 #about_right{
-    float: left;
-    width: 70%
+    width: 70%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: middle;
+    text-align:center;
 }
 #about_right p{
     text-align: justify;
@@ -175,7 +183,7 @@ li p{
     overflow: hidden;
     margin-left: 20px;
     margin-right: 10px;
-    padding: 10px 0px;
+    padding: 0px;
 }
 
 
@@ -354,12 +362,14 @@ li p{
   }
   #about_left{
       width: 100%;
+      float: left;
   }
   #about_left .headshot{
       width: 30%;
   }
   #about_right{
       width: 100%;
+      float: left;
   }
   /* -- Contact Section -- */
   #contact_information{
@@ -501,12 +511,14 @@ li p{
   }
   #about_left{
       width: 100%;
+      float: left;
   }
   #about_left .headshot{
       width: 50%;
   }
   #about_right{
       width: 100%;
+      float: left;
   }
   /* -- Contact Section -- */
   #contact_information{
