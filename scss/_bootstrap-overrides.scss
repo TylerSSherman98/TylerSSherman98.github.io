@@ -1,19 +1,16 @@
-// Bootstrap overrides for this template
+.bg-primary {
+  background-color: $primary !important;
+}
+
 .text-primary {
-  color: $theme-primary !important;
+  color: $primary !important;
 }
 
-.btn-primary {
-  font-weight: 700;
-  @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
-}
-
-.btn-xl {
-  font-size: 18px;
-  font-weight: 700;
-  padding: 20px 40px;
-  border-radius: 3px;
-  @include button-variant(white, $theme-primary, $theme-primary);
-  @include heading-font;
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
 }

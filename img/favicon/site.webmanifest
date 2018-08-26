@@ -1,14 +1,14 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "TSS Portfolio",
+    "short_name": "TSS Portfolio",
     "icons": [
         {
-            "src": "android-chrome-192x192.png?v=alm9Y2Q3R6",
+            "src": "android-chrome-192x192.png?v=yyLaWwAmRG",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "android-chrome-512x512.png?v=alm9Y2Q3R6",
+            "src": "android-chrome-512x512.png?v=yyLaWwAmRG",
             "sizes": "512x512",
             "type": "image/png"
         }
