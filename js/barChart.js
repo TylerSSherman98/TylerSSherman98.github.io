@@ -36,8 +36,6 @@ var myChart = new Chart(bar, {
                     callback: function(value, _index, _values) {
                         return yLabels[value];
                     },
-                    maxRotation: 0,
-                    minRotation: 0,
                     fontSize: 14,
                     max: 5
                 }
