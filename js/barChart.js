@@ -36,15 +36,15 @@ var myChart = new Chart(bar, {
                     callback: function(value, _index, _values) {
                         return yLabels[value];
                     },
-                    maxRotation: 65,
-                    minRotation: 65,
-                    fontSize: 13,
-                    max: 5
+                    fontSize: 14,
+                    max: 5,
+										autoSkip: false
                 }
             }],
             yAxes: [{
               ticks: {
-                    fontSize: 13,
+                    fontSize: 14,
+										autoSkip: false,
                 }
             }]
         }
