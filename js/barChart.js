@@ -12,7 +12,7 @@ var bar = document.getElementById("barChart").getContext('2d');
 var myChart = new Chart(bar, {
     type: 'horizontalBar',
     data: {
-        labels: ['C2', 'HTML & CSS', 'Java', 'MATLAB', 'Python', 'SQL', 'SystemVerilog', 'Swift'],
+        labels: ['C3', 'HTML & CSS', 'Java', 'MATLAB', 'Python', 'SQL', 'SystemVerilog', 'Swift'],
         datasets: [{
             data: data,
             backgroundColor: 'rgba(68, 108, 179, 1)',
@@ -39,7 +39,9 @@ var myChart = new Chart(bar, {
                     fontSize: 14,
 										min: 0,
                     max: 5,
-										autoSkip: false
+										autoSkip: false,
+										minRotate: 90,
+										maxRotate: 90,
                 }
             }],
             yAxes: [{
