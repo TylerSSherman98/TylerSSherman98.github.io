@@ -40,7 +40,7 @@ var myChart = new Chart(bar, {
 										min: 0,
                     max: 5,
 										autoSkip: false,
-										minRotation: 90,
+										minRotation: 0,
 										maxRotation: 90,
                 }
             }],
@@ -48,8 +48,8 @@ var myChart = new Chart(bar, {
               ticks: {
                     fontSize: 14,
 										autoSkip: false,
-										minRotation: 45,
-										maxRotation: 45,
+										minRotation: 0,
+										maxRotation: 90,
                 }
             }]
         }
