@@ -40,14 +40,16 @@ var myChart = new Chart(bar, {
 										min: 0,
                     max: 5,
 										autoSkip: false,
-										minRotate: 90,
-										maxRotate: 90,
+										minRotation: 90,
+										maxRotation: 90,
                 }
             }],
             yAxes: [{
               ticks: {
                     fontSize: 14,
 										autoSkip: false,
+										minRotation: 45,
+										maxRotation: 45,
                 }
             }]
         }
