@@ -192,6 +192,18 @@ a:hover, a:focus, a:active {
 }
 
 .btn {
-    background-color: #446CB3;
-    color: white;
+  background-color: #446CB3;
+  color: white;
+}
+
+
+/*!
+ * Code for Skill Bars
+ */
+.skillGraph {
+  width: 90%;
+  height: 25%;
+  position: center;
+  display: -webkit-inline-box;
+  margin-bottom: 25px;
 }
