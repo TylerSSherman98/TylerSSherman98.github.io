@@ -31,7 +31,7 @@ var myChart = new Chart(bar, {
         scales: {
             xAxes: [{
               ticks: {
-                    beginAtZero: true,
+                    beginAtZero: false,
                     callback: function(value, _index, _values) {
                         return yLabels[value];
                     },
@@ -49,6 +49,7 @@ var myChart = new Chart(bar, {
 										autoSkip: false,
 										minRotation: 0,
 										maxRotation: 90,
+										lineHeight: 5,
                 }
             }]
         }
