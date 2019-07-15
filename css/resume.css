@@ -201,8 +201,8 @@ a:hover, a:focus, a:active {
  * Code for Skill Bars
  */
 .skillGraph {
-  width: 90%;
-  height: 25%;
+  width: 100%;
+  height: 40%;
   position: center;
   display: -webkit-inline-box;
   margin-bottom: 25px;
