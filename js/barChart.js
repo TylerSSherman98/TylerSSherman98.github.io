@@ -39,8 +39,8 @@ var myChart = new Chart(bar, {
 										min: 0.5,
                     max: 4,
 										autoSkip: true,
-										minRotation: 25,
-										maxRotation: 25,
+										minRotation: 75,
+										maxRotation: 75,
                 }
             }],
             yAxes: [{
