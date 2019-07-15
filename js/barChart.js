@@ -1,18 +1,17 @@
 var yLabels = {
 	  0 : '',
-    1 : 'Basic',
-    2 : 'Novice',
-    3 : 'Intermediate',
-    4 : 'Advanced',
-    5 : 'Expert',
+    1 : 'Basic ',
+    2 : 'Intermediate ',
+    3 : 'Advanced ',
+    4 : 'Expert ',
 }
-var data = [2.5, 3, 3.5, 4, 2.5, 3, 2.5, 1];
+var data = [1.5, 2, 2.5, 3, 1.5, 2, 1.5, 1];
 
 var bar = document.getElementById("barChart").getContext('2d');
 var myChart = new Chart(bar, {
     type: 'horizontalBar',
     data: {
-        labels: ['C', 'HTML & CSS', 'Java', 'MATLAB', 'Python', 'SQL', 'SystemVerilog', 'Swift'],
+        labels: ['C10', 'HTML & CSS', 'Java', 'MATLAB', 'Python', 'SQL', 'SystemVerilog', 'Swift'],
         datasets: [{
             data: data,
             backgroundColor: 'rgba(68, 108, 179, 1)',
@@ -20,7 +19,6 @@ var myChart = new Chart(bar, {
     },
     options: {
         responsive: true,
-				maintainAspectRatio: true,
         title: {
           display: false,
         },
@@ -41,16 +39,16 @@ var myChart = new Chart(bar, {
 										min: 0,
                     max: 5,
 										autoSkip: false,
-										minRotation: 70,
-										maxRotation: 70,
+										minRotation: 0,
+										maxRotation: 90,
                 }
             }],
             yAxes: [{
               ticks: {
                     fontSize: 13,
 										autoSkip: false,
-										minRotation: 40,
-										maxRotation: 40,
+										minRotation: 45,
+										maxRotation: 45,
                 }
             }]
         }
