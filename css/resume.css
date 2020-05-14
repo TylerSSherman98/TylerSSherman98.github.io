@@ -207,3 +207,7 @@ a:hover, a:focus, a:active {
   display: -webkit-inline-box;
   margin-bottom: 25px;
 }
+
+.justify-paragraph {
+    text-align: justify;
+}
